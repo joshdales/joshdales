@@ -1,7 +1,8 @@
 alias ll="ls -lh -a"
 
-alias ..="cd ../"
-alias ...="cs ../../"
+alias ..="z ../"
+alias ...="z ../../"
+alias ....="z ../../../"
 
 alias ga="git add"
 alias gaa="git add --all"
