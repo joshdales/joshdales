@@ -3,6 +3,7 @@
 [column]
 	ui = auto
 [commit]
+	gpgsign = true
 	verbose = true
 [core]
 	excludesfile = ~/.gitignore
@@ -14,9 +15,11 @@
 	mnemonicPrefix = true
 	renames = true
 [fetch]
+	all = true
 	prune = true
 	pruneTags = true
-	all = true
+[gpg]
+	format = ssh
 [help]
 	autocorrect = prompt
 [init]
@@ -26,15 +29,18 @@
 [pull]
 	rebase = true
 [push]
-	default = simple
 	autoSetupRemote = true
+	default = simple
 	followTags = true
 [rebase]
 	autoSquash = true
 	autoStash = true
 	updateRefs = true
 [rerere]
-	enabled = true
 	autoupdate = true
+	enabled = true
 [tag]
 	sort = version:refname
+
+[alias]
+	lg = log --oneline --graph
