@@ -6,6 +6,7 @@
 	gpgsign = true
 	verbose = true
 [core]
+	editor = nvim
 	excludesfile = ~/.gitignore
 	fsmonitor = true
 	untrackedCache = true
