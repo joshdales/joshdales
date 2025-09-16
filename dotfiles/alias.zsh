@@ -1,4 +1,5 @@
-alias ll="ls -lh -a"
+alias ll="eza -l --git --git-repos --icons"
+alias lt="eza -l --git --git-repos --icons -T"
 
 alias ..="cd ../"
 alias ...="cd ../../"
