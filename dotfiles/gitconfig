@@ -6,7 +6,7 @@
 	gpgsign = true
 	verbose = true
 [core]
-	editor = nvim
+	# editor = nvim
 	excludesfile = ~/.gitignore
 	fsmonitor = true
 	untrackedCache = true
@@ -45,3 +45,4 @@
 
 [alias]
 	lg = log --oneline --graph
+	yeet = push --force
